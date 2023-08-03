@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
-'''string concanation code
-'''
-'''python variable annotation module
-'''
+"""
+a function that type-annotated concat
+"""
 
 
 def concat(str1: str, str2: str) -> str:
+    """
+    function to concat two strings
+    """
     return str1 + str2
