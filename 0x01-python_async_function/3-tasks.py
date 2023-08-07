@@ -3,6 +3,7 @@
 '''
 import asyncio
 
+
 def task_wait_random(max_delay: int) -> asyncio.Task:
     '''Create an asynchronous task for wait_random.
     '''

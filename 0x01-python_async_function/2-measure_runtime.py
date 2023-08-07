@@ -3,6 +3,7 @@
 import asyncio
 import time
 
+
 async def measure_time(n: int, max_delay: int) -> float:
     '''Computes the average runtime of wait_n
     '''
